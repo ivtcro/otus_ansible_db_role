@@ -1,0 +1,8 @@
+.vagrant/
+*.log
+*.pyc
+.molecule
+.cache
+.pytest_cache
+Pipfile*
+otus_ivtcro_infra/*
