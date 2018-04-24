@@ -1,0 +1,22 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: gce
+lint:
+  name: yamllint
+platforms:
+  - name: ansible-db-role-ci-test
+    zone: europe-west1-b
+    machine_type: g1-small
+    image: ubuntu-1604-xenial
+provisioner:
+  name: ansible
+  lint:
+    name: ansible-lint
+scenario:
+  name: ci-tests
+verifier:
+  name: testinfra
+  lint:
+    name: flake8
