@@ -2,7 +2,7 @@ language: python
 python:
 - '2.7'
 install:
-- pip install ansible==2.5.0 molecule==2.12.1 testinfra==1.7.1 apache-libcloud
+- pip install ansible==2.5.0 molecule==2.12.1 testinfra==1.7.1 apache-libcloud pycrypto
 env:
   matrix:
   - GCE_CREDENTIALS_FILE="$(pwd)/Infra-be2fec3bae25.json"
