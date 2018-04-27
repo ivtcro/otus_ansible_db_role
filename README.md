@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/ivtcro/otus_ansible_db_role.svg?branch=master)](https://travis-ci.org/ivtcro/otus_ansible_db_role)
+
 otus_ansible_db_role
 =========
 
@@ -8,7 +9,9 @@ Role Variables
 --------------
 
   mongo_port: MongoDB bind port
+  
   mongo_bind_ip: MongoDB bind IP address
+  
   env: environment name
 
 
